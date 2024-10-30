@@ -1,0 +1,47 @@
+.boast-display {
+  border: 1px solid black;
+  background-color: #EFEFEF; }
+  .boast-display .cards {
+    display: flex;
+    overflow: hidden;
+    transition: .5s;
+    width: 100%; }
+    .boast-display .cards .boast-card {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      left: 0;
+      position: relative;
+      height: 100%;
+      transition: .5s;
+      width: 100%; }
+      .boast-display .cards .boast-card div {
+        padding: 10px;
+        width: 100%; }
+        .boast-display .cards .boast-card div .name {
+          color: #666;
+          margin-bottom: 0;
+          text-align: right; }
+  .boast-display .selectors {
+    align-items: center;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    width: 100%; }
+    .boast-display .selectors .selector {
+      background-color: rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      height: 3px;
+      margin: 0 10px;
+      width: 30px; }
+      .boast-display .selectors .selector.active {
+        background-color: rgba(0, 0, 0, 0.5); }
+      .boast-display .selectors .selector::before {
+        bottom: 9px;
+        height: 20px;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        content: ""; }
+
+/*# sourceMappingURL=boast-display-public.css.map */
